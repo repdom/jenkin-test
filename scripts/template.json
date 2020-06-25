@@ -2,6 +2,7 @@
     "family": "jenkins-test",
     "placementConstraints": [],
     "volumes": [],
+    "networkMode": "awsvpc",
     "requiresCompatibilities": [
         "FARGATE"
     ],
