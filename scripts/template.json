@@ -6,6 +6,7 @@
     "requiresCompatibilities": [
         "FARGATE"
     ],
+    "executionRoleArn": "arn:aws:iam::588719665737:policy/jenkins",
     "containerDefinitions": [
         {
             "memoryReservation": 128,
