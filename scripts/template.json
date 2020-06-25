@@ -6,7 +6,7 @@
     "requiresCompatibilities": [
         "FARGATE"
     ],
-    "executionRoleArn": "arn:aws:iam::aws:policy/CloudWatchLogsFullAccess",
+    "executionRoleArn": "arn:aws:iam::588719665737:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
             "memoryReservation": 128,
