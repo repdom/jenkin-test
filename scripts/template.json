@@ -6,6 +6,7 @@
     "requiresCompatibilities": [
         "FARGATE"
     ],
+    "executionRoleArn": "arn:aws:iam::aws:policy/CloudWatchLogsFullAccess",
     "containerDefinitions": [
         {
             "memoryReservation": 128,
